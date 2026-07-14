@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KW Southwest Monthly — Meet the Agents</title>
+<meta name="description" content="Meet the Agents of Keller Williams Southwest — featured agent spotlights in the KW Southwest monthly newsletter.">
+
+<meta property="og:title" content="KW Southwest Monthly — Meet the Agents">
+<meta property="og:description" content="Featured agent spotlights from Keller Williams Southwest.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kwswnewsletter.brokermarketingdesk.com/monthly/jul-14-2026-newsletter/">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --kw-red: #C8102E;
+    --kw-red-dark: #A00C24;
+    --ink: #14161a;
+    --muted: #5b6169;
+    --line: #e7e8ea;
+    --surface: #ffffff;
+    --wash: #f6f7f8;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    background: var(--wash);
+    color: var(--ink);
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  /* ---------- Top bar ---------- */
+  .topbar {
+    background: var(--kw-red);
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 9px 16px;
+  }
+
+  /* ---------- Header ---------- */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+    text-align: center;
+    padding: 34px 24px 30px;
+  }
+
+  .brand {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 1.1;
+  }
+  .brand .kw {
+    display: inline-block;
+    background: var(--kw-red);
+    color: #fff;
+    font-size: 22px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+  }
+  .brand .name {
+    display: block;
+    font-size: 15px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    flex-wrap: wrap;
+  }
+  .nav a {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--muted);
+    font-weight: 600;
+    transition: color 0.2s;
+  }
+  .nav a:hover { color: var(--kw-red); }
+
+  /* ---------- Intro ---------- */
+  .intro { text-align: center; padding: 60px 24px 8px; }
+
+  .eyebrow {
+    display: inline-block;
+    margin: 0 0 18px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--kw-red);
+  }
+  .intro h1 {
+    margin: 0 auto 18px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.05;
+    max-width: 14ch;
+    color: var(--ink);
+  }
+  .intro p {
+    margin: 0 auto;
+    max-width: 56ch;
+    font-size: 17px;
+    color: var(--muted);
+  }
+  .rule { width: 56px; height: 4px; background: var(--kw-red); border-radius: 2px; margin: 34px auto 0; }
+
+  /* ---------- Agent grid ---------- */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 26px;
+    padding: 54px 0 40px;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 2px rgba(20,22,26,0.04);
+    transition: box-shadow 0.25s, transform 0.25s, border-color 0.25s;
+  }
+  .card:hover {
+    box-shadow: 0 14px 34px rgba(20,22,26,0.10);
+    border-color: #d9dadd;
+    transform: translateY(-3px);
+  }
+
+  .video {
+    position: relative;
+    width: 100%;
+    background: #000;
+    aspect-ratio: 9 / 16;
+    max-height: 520px;
+  }
+  .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+  .card-body { padding: 24px 26px 28px; text-align: center; }
+
+  .card .num {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--kw-red);
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .card h2 {
+    margin: 9px 0 5px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--ink);
+  }
+  .card .tagline {
+    margin: 0 0 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 600;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: var(--kw-red);
+    border-radius: 999px;
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background 0.2s;
+  }
+  .btn:hover { background: var(--kw-red-dark); }
+
+  /* ---------- Footer ---------- */
+  footer {
+    background: var(--ink);
+    color: #fff;
+    text-align: center;
+    padding: 48px 24px 42px;
+    margin-top: 30px;
+  }
+  footer .fh {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  footer p { margin: 6px 0; font-size: 13px; color: rgba(255,255,255,0.66); }
+  footer a { color: #fff; text-decoration: none; border-bottom: 1px solid var(--kw-red); }
+  footer .sub {
+    margin-top: 22px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.4);
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 720px) {
+    .intro h1 { font-size: 36px; }
+    .intro { padding-top: 44px; }
+    .grid { grid-template-columns: 1fr; gap: 20px; padding: 40px 0 28px; }
+    .video { max-height: none; }
+    .nav { gap: 22px; }
+  }
+</style>
+</head>
+
+<body>
+
+<div class="topbar">Keller Williams Southwest · Monthly Newsletter</div>
+
+<!-- ============ HEADER ============ -->
+<header>
+  <a href="https://kwsw.com" target="_blank" rel="noopener" style="text-decoration:none;">
+    <div class="brand">
+      <span class="kw">KW</span>
+      <span class="name">Southwest</span>
+    </div>
+  </a>
+  <nav class="nav">
+    <a href="https://kwsw.com" target="_blank" rel="noopener">Home</a>
+    <a href="https://homes.kwsw.com" target="_blank" rel="noopener">Listings</a>
+    <a href="https://kwsw.com/join/" target="_blank" rel="noopener">Join KWSW</a>
+  </nav>
+</header>
+
+<!-- ============ INTRO ============ -->
+<section class="intro wrap">
+  <span class="eyebrow">July 2026 · Agent Spotlight</span>
+  <h1>Meet the Agents</h1>
+  <p>The people behind Keller Williams Southwest. Get to know four of our
+     featured agents — in their own words, in under a minute each.</p>
+  <div class="rule"></div>
+</section>
+
+<!-- ============ AGENT GRID ============ -->
+<section class="wrap">
+  <div class="grid">
+
+    <!-- 1 · Velanka Antao -->
+    <article class="card">
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/eGKpKt5AzXg"
+          title="Velanka Antao — Keller Williams Southwest"
+          loading="lazy" allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+      </div>
+      <div class="card-body">
+        <div class="num">Agent 01</div>
+        <h2>Velanka Antao</h2>
+        <p class="tagline">Keller Williams Southwest</p>
+        <a class="btn" href="https://www.youtube.com/shorts/eGKpKt5AzXg" target="_blank" rel="noopener">Watch on YouTube</a>
+      </div>
+    </article>
+
+    <!-- 2 · Vamshi Kyatham -->
+    <article class="card">
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/wlKbgYhAL2E"
+          title="Vamshi Kyatham — HTX Realty Group"
+          loading="lazy" allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+      </div>
+      <div class="card-body">
+        <div class="num">Agent 02</div>
+        <h2>Vamshi Kyatham</h2>
+        <p class="tagline">HTX Realty Group · Sugar Land</p>
+        <a class="btn" href="https://www.youtube.com/shorts/wlKbgYhAL2E" target="_blank" rel="noopener">Watch on YouTube</a>
+      </div>
+    </article>
+
+    <!-- 3 · Jimmy Villanueva -->
+    <article class="card">
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/b-naFYf9CJs"
+          title="Jimmy Villanueva — Space City Team"
+          loading="lazy" allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+      </div>
+      <div class="card-body">
+        <div class="num">Agent 03</div>
+        <h2>Jimmy Villanueva</h2>
+        <p class="tagline">Space City Team</p>
+        <a class="btn" href="https://www.youtube.com/shorts/b-naFYf9CJs" target="_blank" rel="noopener">Watch on YouTube</a>
+      </div>
+    </article>
+
+    <!-- 4 · Kitee Valentz -->
+    <article class="card">
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/ln8nDP-qwuo"
+          title="Kitee Valentz — Sugar Land Real Estate Expert"
+          loading="lazy" allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+      </div>
+      <div class="card-body">
+        <div class="num">Agent 04</div>
+        <h2>Kitee Valentz</h2>
+        <p class="tagline">Your Sugar Land Real Estate Expert</p>
+        <a class="btn" href="https://www.youtube.com/shorts/ln8nDP-qwuo" target="_blank" rel="noopener">Watch on YouTube</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <p class="fh">Keller Williams Southwest</p>
+  <p>1650 Highway 6, Suite 350 · Sugar Land, TX 77478</p>
+  <p><a href="https://kwsw.com" target="_blank" rel="noopener">kwsw.com</a></p>
+  <p class="sub">Monthly Newsletter · July 2026</p>
+</footer>
+
+</body>
+</html>
