@@ -27,6 +27,13 @@ red/black/white. Lives entirely under **`/monthly/`**.
   general-newsletter assets go under `monthly/assets/`.
 - One directory per monthly issue.
 
+## Archive index
+
+`index.html` at the repo root is the domain landing page
+(`https://kwswnewsletter.brokermarketingdesk.com/`). It lists every issue,
+grouped by newsletter (Monthly and Luxury). **Add a new `<a class="issue">`
+row to it whenever you publish a new issue.**
+
 ## Deployment
 
 Static site on Vercel (project `kwsw-newsletter`). Pushing to `main`
